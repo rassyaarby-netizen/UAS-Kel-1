@@ -50,7 +50,7 @@ class QuizGame:
             {"p": "Bahasa yang di gunakan negara brazil?", "o": ["A. Brazil", "B. Spanyol", "C. Portugis", "D. Inggris"], "j": "C"},
             {"p": "Berapa jumlah benua di dunia?", "o": ["A. 7", "B. 5", "C. 4", "D. 6"], "j": "A"},
             {"p": "Negara dengan penduduk terbanyak di dunia?", "o": ["A. Russia", "B. Amerika", "C. Indonesia", "D. China"], "j": "D"},
-            {"p": "Negara terkecil di dunia?", "o": ["A. Singapura", "B. Vatikan", "C. Monaco" "D. Nauru"], "j": "B"},
+            {"p": "Negara terkecil di dunia?", "o": ["A. Singapura", "B. Vatikan", "C. Monaco", "D. Nauru"], "j": "B"},
         ]
         self.soal_terpilih = random.sample(bank_soal, 3)
 
